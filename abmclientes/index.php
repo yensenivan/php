@@ -161,6 +161,7 @@ if($_POST){
                         <th>Imagen</th>
                         <th>DNI</th>
                         <th>Nombre</th>
+                        <th>Telefono</th>
                         <th>Correo</th>
                         <th>Acciones</th>
                     </tr>
@@ -169,6 +170,7 @@ if($_POST){
                             <td><img src="imagenes/<?php echo $cliente["imagen"]; ?>" class="img-thumbnail"></td>
                             <td><?php echo $cliente["dni"]; ?></td>
                             <td><?php echo $cliente["nombre"]; ?></td>
+                            <td><?php echo $cliente["telefono"]; ?></td>
                             <td><?php echo $cliente["correo"]; ?></td>
                             <td>
                                 <a href="?id=<?php echo $pos; ?>"><i class="fas fa-edit"></i></a>
